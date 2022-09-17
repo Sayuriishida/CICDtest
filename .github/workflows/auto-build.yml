@@ -9,10 +9,10 @@ jobs:
 
     steps:
       - name: レポジトリをチェックアウト
-        uses: actions/cjeckout@v3
+        uses: actions/checkout@v3
       
       - name: Node.js環境をセットアップ
-        uses: actions/setup-node@ve
+        uses: actions/setup-node@v3
         with:
           node-version: 16
           cache: npm
